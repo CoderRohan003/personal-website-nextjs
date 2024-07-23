@@ -15,9 +15,8 @@ const HeaderSection = () => {
             <br />
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 "Rohan",
-                3000, // wait 1s before replacing "Mice" with "Hamsters"
+                3000, 
                 "Web Developer",
                 1000,
                 "Mobile Developer",
@@ -32,14 +31,15 @@ const HeaderSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
             architecto!
           </p>
-          <div>
-            <button className="px-6 py-3 w-full sm:w-fit mb-4 rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
-              Hire Me
-            </button>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full border border-white hover:border-none hover:bg-purple-400 text-white">
-              Download CV
-            </button>
-          </div>
+          <div className="flex flex-col items-center justify-center sm:flex-row sm:justify-start">
+  <button className="px-6 py-3 w-50 sm:w-fit mb-4 sm:mb-0 sm:mr-4 rounded-full bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
+    Hire Me
+  </button>
+  <button className="px-6 py-3 w-50 sm:w-fit rounded-full border border-white hover:border-none hover:bg-purple-400 text-white">
+    Download CV
+  </button>
+</div>
+
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#373737] w-[250px] h-[250px] relative">
