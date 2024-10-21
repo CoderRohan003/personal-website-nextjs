@@ -22,8 +22,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul>
-                <li>Bachelor's Degree in Computer Science</li>
-                <li>Master's Degree in Software Engineering</li>
+                <li>Bachelor&apos;s Degree in Computer Science</li>
+                <li>Master&apos;s Degree in Software Engineering</li>
                 <li>High School Diploma</li>
             </ul>
         ),
@@ -64,10 +64,10 @@ const About = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">
-                        Hi, I'm Rohan. I am a full-stack developer with a passion for
-                        creating engaging and user-centric experiences. I've recently
+                        Hi, I&apos;m Rohan. I am a full-stack developer with a passion for
+                        creating engaging and user-centric experiences. I&apos;ve recently
                         graduated from the prestigious University of Texas at Austin with a
-                        degree in Computer Science. I'm currently looking for opportunities
+                        degree in Computer Science. I&apos;m currently looking for opportunities
                         to work on cutting-edge projects and contribute to the tech
                         community.
                     </p>
