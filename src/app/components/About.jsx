@@ -8,7 +8,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul>
+            <ul className="list-disc pl-2">
                 <li>Node.js</li>
                 <li>React.js</li>
                 <li>Express.js</li>
@@ -53,7 +53,7 @@ const About = () => {
     };
 
     return (
-        <section className="text-white">
+        <section id="about" className="text-white">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image
                     src="/images/hero.png"
