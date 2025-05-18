@@ -16,10 +16,10 @@ const HeaderSection = () => {
             <TypeAnimation
               sequence={[
                 "Rohan",
-                3000, 
+                3000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Android Developer",
                 1000,
               ]}
               wrapper="span"
@@ -27,28 +27,30 @@ const HeaderSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-            architecto!
+          <p className="text-[#adb7be] text-base sm:text-lg mb-6 lg:text-lg">
+            I specialize in full-stack web and Android app development, creating seamless
+            digital experiences from front to back. I'm driven by a passion for building
+            intuitive interfaces and performant, scalable systems.
           </p>
+
           <div className="flex flex-col items-center justify-center sm:flex-row sm:justify-start">
-  <button className="px-6 py-3 w-50 sm:w-fit mb-4 sm:mb-0 sm:mr-4 rounded-full bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
-    Hire Me
-  </button>
-  <button className="px-6 py-3 w-50 sm:w-fit rounded-full border border-white hover:border-none hover:bg-purple-400 text-white">
-    Download CV
-  </button>
-</div>
+            <button className="px-6 py-3 w-50 sm:w-fit mb-4 sm:mb-0 sm:mr-4 rounded-full bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
+              Hire Me
+            </button>
+            <button className="px-6 py-3 w-50 sm:w-fit rounded-full border border-white hover:border-none hover:bg-purple-400 text-white">
+              Download CV
+            </button>
+          </div>
 
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#373737] w-[250px] h-[250px] relative">
             <Image
-              src="/images/hero.png"
+              src="/images/cropped-cover1.png"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="my-image"
-              width={200}
-              height={200}
+              width={230}
+              height={230}
             />
           </div>
         </div>

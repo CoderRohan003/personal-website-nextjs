@@ -30,9 +30,14 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
             <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold">
-                    LOGO
+                <Link href="/">
+                    <img
+                        src="/images/logo-circle.png"
+                        alt="Logo"
+                        className="h-10 w-auto md:h-12"
+                    />
                 </Link>
+
                 <div className="mobile-menu block md:hidden">
                     {navbarOpen ? (
                         <button
@@ -60,7 +65,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            {navbarOpen && <MenuOverlay links={navLinks}  />}
+            {navbarOpen && <MenuOverlay links={navLinks} />}
         </nav>
     );
 };
